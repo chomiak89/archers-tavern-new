@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ubuntu:wght@300&display=swap");
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+/* RESETS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+}
+
+/* HEADER STYLES */
+.haeder-container {
+  width: 100%;
+}
+
+.header {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.navigation {
+  align-self: center;
+}
+.navigation ul {
+  list-style-type: none;
+}
+.navigation li {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 10px;
+  position: relative;
+}
+.navigation a {
+  text-decoration: none;
+  color: #333333;
+  transition: color 200ms;
+}
+.navigation a:hover {
+  color: #706c61;
+}
+.navigation li::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background-color: #706c61;
+  transition: width 300ms;
+}
+.navigation li:hover::after {
+  width: 100%;
+}
+
+.logo {
+  width: 8%;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.social-media {
+  align-self: center;
+}
+.social-media i {
+  color: #333333;
+  margin: 0 10px;
+  transition: color 200ms;
+}
+.social-media i:hover {
+  color: #706c61;
+}
+
+/*# sourceMappingURL=main.css.map */

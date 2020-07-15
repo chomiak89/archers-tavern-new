@@ -1,0 +1,68 @@
+/* HEADER STYLES */
+.haeder-container {
+  width: 100%;
+}
+.header {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Ubuntu", sans-serif;
+}
+
+// NAVIGATION
+.navigation {
+  align-self: center;
+  ul {
+    list-style-type: none;
+  }
+  li {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 10px;
+    position: relative;
+  }
+  a {
+    text-decoration: none;
+    color: #333333;
+    transition: color 200ms;
+  }
+  a:hover {
+    color: #706c61;
+  }
+  li::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background-color: #706c61;
+    transition: width 300ms;
+  }
+  li:hover::after {
+    width: 100%;
+  }
+}
+// LOGO
+.logo {
+  width: 8%;
+}
+.logo img {
+  width: 100%;
+}
+// SOCIAL MEDIA
+.social-media {
+  align-self: center;
+  i {
+    color: #333333;
+    margin: 0 10px;
+    transition: color 200ms;
+  }
+  i:hover {
+    color: #706c61;
+  }
+}

@@ -87,7 +87,7 @@ body {
 }
 
 .hero-container {
-  background-image: url("/assets/images/poolTable.jpg");
+  background-image: url("/assets/images/jack.jpg");
   filter: brightness(70%);
   min-height: 700px;
   position: relative;
@@ -114,6 +114,29 @@ body {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   border: 1px solid black;
+}
+
+.gaming {
+  position: relative;
+  top: -50px;
+}
+.gaming img {
+  width: 70%;
+  border-radius: 5%;
+}
+
+.info {
+  position: relative;
+  top: -25px;
+}
+
+.hours {
+  position: relative;
+}
+
+.location {
+  position: relative;
+  top: 25px;
 }
 
 /*# sourceMappingURL=main.css.map */

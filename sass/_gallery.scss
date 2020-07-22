@@ -1,12 +1,12 @@
 .gallery-container {
   width: 100%;
-  position: relative;
-  top: -802px;
+  position: absolute;
+  top: 1251px;
 }
 .gallery-heading {
   width: 80%;
   margin: 0 auto;
-  min-height: 500px;
+  min-height: 200px;
   text-align: center;
   h2 {
     text-transform: uppercase;
@@ -35,8 +35,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  position: relative;
-  top: -200px;
+  // position: relative;
+  // top: -200px;
 }
 .gallery-image-container {
   width: 350px;

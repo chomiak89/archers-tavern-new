@@ -10,7 +10,7 @@
 .contact-content {
   width: 70%;
   margin: 0 auto;
-  min-height: 600px;
+  min-height: 300px;
   // position: relative;
   // top: -200px;
   border: 10px solid #fff;
@@ -35,5 +35,29 @@
     text-transform: uppercase;
     font-family: "Ubuntu", sans-serif;
     font-size: 5em;
+  }
+}
+.contact-info {
+  width: 70%;
+  margin: 0 auto;
+  border: 1px solid black;
+  min-height: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+.contact-phone,
+.contact-form {
+  h2 {
+    margin-bottom: 50px;
+  }
+}
+.contact-form {
+  input {
+    display: block;
+    margin-bottom: 30px;
+  }
+  textarea {
+    display: block;
+    resize: none;
   }
 }

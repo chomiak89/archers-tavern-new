@@ -341,18 +341,61 @@ body {
   justify-content: space-around;
 }
 
+.contact-phone,
+.contact-form {
+  font-family: "Montserrat", sans-serif;
+}
 .contact-phone h2,
 .contact-form h2 {
   margin-bottom: 50px;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .contact-form input {
-  display: block;
-  margin-bottom: 30px;
+  display: inline-block;
+  border: none;
+  z-index: 2;
 }
 .contact-form textarea {
   display: block;
   resize: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.email-animation,
+.name-animation {
+  border-top: 1px solid #000;
+  text-transform: uppercase;
+}
+
+.name-animation::before {
+  content: "Name";
+  transition: transform 200ms, font-size 200ms;
+  display: inline-block;
+  position: relative;
+  top: -20px;
+  left: 30px;
+  margin-bottom: 30px;
+}
+
+.email-animation::before {
+  content: "Email";
+  transition: transform 200ms, font-size 200ms;
+  display: inline-block;
+  position: relative;
+  top: -20px;
+  left: 30px;
+}
+
+#name-input:focus + .name-animation::before,
+.js-field-active.name-animation::before,
+#email-input:focus + .email-animation::before,
+.js-field-active.email-animation::before {
+  transform: translateY(-25px) translateX(-7px);
+  font-size: 0.9em;
 }
 
 /*# sourceMappingURL=main.css.map */

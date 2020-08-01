@@ -296,7 +296,6 @@ body {
 
 .contact-container {
   width: 100%;
-  border: 10px solid blue;
   position: absolute;
   top: 2550px;
 }
@@ -324,7 +323,7 @@ body {
   color: #000;
   border: 4px solid black;
   position: relative;
-  top: -200px;
+  top: -100px;
 }
 .contact-header h2 {
   text-transform: uppercase;
@@ -333,8 +332,9 @@ body {
 }
 
 .contact-info {
-  width: 70%;
+  width: 50%;
   margin: 0 auto;
+  padding: 30px;
   border: 1px solid black;
   min-height: 200px;
   display: flex;
@@ -396,6 +396,20 @@ input:focus {
 .js-field-active.email-animation::before {
   transform: translateY(-25px) translateX(-7px);
   font-size: 0.9em;
+}
+
+#submit-button {
+  width: 229px;
+  margin-top: 15px;
+}
+
+.footer {
+  min-width: 300px;
+  border: 1px solid pink;
+  position: absolute;
+  top: 3500px;
+  text-align: center;
+  width: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */
